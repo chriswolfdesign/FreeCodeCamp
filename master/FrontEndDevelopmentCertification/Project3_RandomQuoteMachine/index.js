@@ -81,17 +81,10 @@ $(document).ready(function () {
             tumblrMessage = tumblrMessage.substring(0, 500);
         }
 
-        var tumblrLink = "https://www.tumblr.com/new/text"
+        var tumblrLink = 
+			"https://www.tumblr.com/widgets/share/tool?posttype=quote&content="
+			+ tumblrMessage + 
+			"&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button";
         window.open(tumblrLink, "_blank");
     });
-
-    // Post the current quote onto Facebook
-    // BUG: Facebook will open post but does not include text
-    $("#facebook-button").on("click", function () {
-        var facebookMessage = message;
-
-        var facebookLink = "http://www.facebook.com/";
-
-        window.open(facebookLink, "_blank");
-    })
 });

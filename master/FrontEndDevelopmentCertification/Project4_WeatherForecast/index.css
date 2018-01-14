@@ -1,5 +1,28 @@
-body
-{
+body {
     background-color: black;
     color: white;
+}
+
+#intro {
+    font-size: 48px;
+}
+
+#location {
+    font-size: 36px;
+}
+
+#temperature {
+    font-size: 36px;
+}
+
+#weather-icon {
+    width: 200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#weather-icon img {
+    width: 100%;
+    height: auto;
 }

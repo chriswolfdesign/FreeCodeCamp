@@ -6,27 +6,6 @@ var celsiusTemperature;
 var fahrenheitTemperature;
 var isCelsius = true;
 
-// Functions
-function convertTemperature() {
-	if(isCelsius) {
-		convertToFahrenheit();
-	} else {
-		convertToCelsius();
-	}
-}
-
-function convertToFahrenheit() {
-	$("#temperature").html(fahrenheitTemperature + " &#8457");
-	$("#convert").html("Convert to Celsius");
-	isCelsius = false;
-}
-
-function convertToCelsius() {
-	$("#temperature").html(celsiusTemperature + " &#8451");
-	$("#convert").html("Convert to Fahrenheit");
-	isCelsius = true;
-}
-
 // Main functionality
 $(document).ready(function() {
 
@@ -60,5 +39,26 @@ $(document).ready(function() {
 	}
 
 	// Button to convert between
-	$("#convert").on("click", convertTemperature); 
+	$("#convert").on("click", convertTemperature);
 });
+
+// Functions
+function convertTemperature() {
+	if(isCelsius) {
+		convertToFahrenheit();
+	} else {
+		convertToCelsius();
+	}
+}
+
+function convertToFahrenheit() {
+	$("#temperature").html(fahrenheitTemperature + " &#8457");
+	$("#convert").html("Convert to Celsius");
+	isCelsius = false;
+}
+
+function convertToCelsius() {
+	$("#temperature").html(celsiusTemperature + " &#8451");
+	$("#convert").html("Convert to Fahrenheit");
+	isCelsius = true;
+}

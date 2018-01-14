@@ -51,6 +51,7 @@ $(document).ready(function() {
             }
         });
 
+        // Reset values and remove or option
         $("#or-option").html("<br />");
         $("#text-field").val("");
     });

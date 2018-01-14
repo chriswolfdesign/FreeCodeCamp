@@ -17,7 +17,8 @@ $(document).ready(function() {
         $("#title").html("Search results for: " + query);
         query = query.replace(" ", "_");
 
-        ajaxurl = "https://en.wikipedia.org/w/api.php?action=opensearch&search=" + query + "&format=json&origin=*";
+        ajaxurl = "https://en.wikipedia.org/w/api.php?action=" + 
+			"opensearch&search=" + query + "&format=json&origin=*";
 
         var html = "";
         // Reach out to Wikipedia API
@@ -30,15 +31,18 @@ $(document).ready(function() {
             success: function(data) {
                 for(entry in data[1]) {
                     // Add the link to the wikipedia article
-                    html += "<div class=\"link\"><a href=\"" + data[3][entry] + "\"</a>" +
+                    html += "<div class=\"link\"><a href=\"" + data[3][entry] 
+						+ "\"</a>" +
                         data[1][entry] + "</div>";
 
-                    // Add the description of the wikipedia article if available
-                    // else, declare that there is no descriptor
+                    // Add the description of the wikipedia article if 
+                    // available else, declare that there is no descriptor
                     if(data[2][entry] != "") {
-                        html += "<div class=\"descriptor\">" + data[2][entry] + "</div>";
+                        html += "<div class=\"descriptor\">" + data[2][entry] 
+							+ "</div>";
                     } else {
-                        html += "<div class=\"descriptor\">No Description provided by Wikipedia" +
+                        html += "<div class=\"descriptor\">" + 
+							"No Description provided by Wikipedia" +
                             "</div>";
                     }
 

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+
+    <!-- IMPORTS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=PT+Mono|Pacifico" rel="stylesheet">
+
+    <!-- JavaScript file -->
+    <script type="text/javascript" src="index.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+
+    <head>
+        <title>Wikipedia Viewer</title>
+    </head>
+    <body>
+        <!-- MAIN PAGE BEGINS HERE -->
+        <div class="container-fluid text-center" id="main">
+            <div id="intro">
+                Welcome to Wikipedia Viewer
+            </div>
+            <div class="instructions">
+                Search for your favorite Wikipedia page
+            </div>
+            <div id="form">
+                <input autocomplete="off" type="text" id="text-field"/>
+                <button class="btn-primary" id="submit">Submit</button>
+            </div>
+            <br />
+            <div id="result">
+                <div id="title">
+
+                </div>
+                <div id="links">
+
+                </div>
+            </div>
+            <div class="instructions">
+                <div id="or-option">
+                    - or -
+                </div>
+            </div>
+            <br />
+            <a href="https://en.wikipedia.org/wiki/Special:Random">
+				<button class="btn-primary"
+                id="random">Click here for a random Wikipedia Article</button>
+			</a>
+            <br />
+            <br />
+            <div id="credits">
+                Powered by ChrisWolfDesign
+            </div>
+        </div>
+    </body>
+</html>

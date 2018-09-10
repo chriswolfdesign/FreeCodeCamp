@@ -1,0 +1,72 @@
+body
+{
+    background-color: black;
+    color: red;
+    font-family: Lora;
+    font-size: 18px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#navigate
+{
+    background-color: red;
+    color: white;
+    font-family: Pacifico;
+    font-size: 24px;
+}
+
+.button-text
+{
+    color: red;
+}
+
+.title
+{
+    margin-left: 100px;
+}
+
+.spacer
+{
+    margin-top: 100px;
+}
+
+.small-spacer
+{
+    margin-top: 30px;
+}
+
+.section-header
+{
+    background-color: red;
+    color: white;
+    font-family: "Patua One";
+}
+
+#my-image
+{
+    width: 500px;
+    height: auto;
+}
+
+#about-me-button
+{
+    margin-left: 80px;
+}
+
+#contact
+{
+    background-color: red;
+    color: white;
+    font-family: Arial;
+}
+
+#email
+{
+    margin-left:20px;
+}
+
+.external-link
+{
+    color: #000000;
+}

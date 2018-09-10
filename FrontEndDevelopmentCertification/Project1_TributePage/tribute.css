@@ -1,0 +1,17 @@
+body
+{
+  margin-top: 60px;
+  background-color: black;
+  color: rgb(100, 255, 0);
+  margin: 100px;
+}
+
+#header
+{
+  border: 5px solid blue;
+}
+
+.spacer
+{
+  margin: 30px;
+}

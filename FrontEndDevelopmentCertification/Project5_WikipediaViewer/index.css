@@ -1,0 +1,37 @@
+body {
+    background-color: navy;
+    color: white;
+	margin: 100px;
+}
+
+#intro {
+    font-size: 48px;
+}
+
+#text-field {
+    color: black;
+}
+
+#submit-button {
+    background-color: black;
+    color: white;
+}
+
+.instructions {
+    font-size: 24px;
+}
+
+#result {
+    font-size: 18px;
+}
+
+.link {
+    background-color: white;
+    color: navy;
+}
+
+.descriptor {
+    background-color: white;
+    color: navy;
+    font-size: 14px;
+}

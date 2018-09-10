@@ -1,0 +1,60 @@
+body {
+	background-color: gray;
+	color: black;
+	font-size: 32px;
+	margin-left: 300px;
+	margin-right: 300px;
+}
+
+#main {
+	background-color: white;
+}
+
+#streamers {
+	color: white;
+}
+
+.streamer {
+	margin-bottom: 5px;
+}
+
+.online-streamer {
+	background-color: green;
+}
+
+.offline-streamer {
+	background-color: red;
+}
+
+#form {
+	margin-bottom: 5px;
+}
+
+#intro {
+	font-size: 48px;
+}
+
+#buttons {
+	margin-bottom: 5px;
+}
+
+#credits {
+	font-size: 24px;
+	background-color: gray;
+	color: white;
+}
+
+#all {
+	background-color: blue;
+	color: white;
+}
+
+#online {
+	background-color: white;
+	color: black;
+}
+
+#offline {
+	background-color: white;
+	color: black;
+}
